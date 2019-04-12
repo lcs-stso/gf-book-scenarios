@@ -2,7 +2,7 @@
 comment0.target=Key
 comment1.params=
 comment1.target=Key()
-comment1.text=\n\ Create\ a\ new\ key.\n
+comment1.text=\n\ Create\ a\ new\ key.\n\ Constructor\ -\ it\ runs\ once\ when\ a\ Key\ object\ is\ created\ \n
 comment2.params=
 comment2.target=void\ act()
 comment2.text=\n\ Do\ the\ action\ for\ this\ key.\n
