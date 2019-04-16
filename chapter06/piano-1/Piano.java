@@ -17,7 +17,10 @@ public class Piano extends World
     //Data type: String,we want an array,and the name is"student name"
     String[] studentNames = {"Sarah", "Chelsea","Jack","Maxwell","Gavin","Peter",
            "Minah","Brandon","Jeowoo","Peter","Justy"};
-    
+    //Track the white keys and notes
+    String[] whiteKeys = {"a","s","d","f","g","h","j","k","l",";","'","\\"};
+    String[] whiteNotes = {"3c","3d","3e","3f","3g","3a","3b","4c","4d","4e",
+    "4f","4g"}; 
     /**
      * Make the piano.
      */
@@ -39,10 +42,12 @@ public class Piano extends World
         //Every second,say hello to the next person in the list 
         //Use of Boolean AND to check both conditions 
         //The showText statement only runs when BOTH conditions are true 
+        //This block of code runs once per second until the end of the 
+        //whiteKeys array
         if((frames%60 == 0) && (frames/60 < 10))
         {
             
-            showText("Hello" + studentNames[ frames/60 ],400,170);
+            //showText("Hello" + studentNames[ frames/60 ],400,170);
             
         }
         //Keep track of scores 
