@@ -39,7 +39,7 @@ public class MyWorld extends World
            
            //Add the Leaf object to the world 
            addObject(aLeaf, x,y);
-         
+           
         }
     }
 }
