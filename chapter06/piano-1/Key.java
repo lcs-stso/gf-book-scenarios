@@ -13,20 +13,20 @@ public class Key extends Actor
     //(key and sound are object data types - shoes in black, type is Capitalized)
     private String key;                //**
     private String sound;              //**
-    
+    private boolean keyWhite; 
     /**
      * Create a new key.
      * Constructor - it runs once when a Key object is created 
      */
-    public Key(String keyName, String soundFile)
+    public Key(String keyName, String soundFile, boolean isKeyWhite)
     {
         //Key begins in the "up"position
         isDown = false; 
         
-        //Initialize the key and sound instance variables //**
-        key = keyName;                                    //**
-        sound = soundFile;                                //**
-        
+        //Initialize the key and sound instance variables 
+        key = keyName;                                   
+        sound = soundFile;                                
+        keyWhite = isKeyWhite; 
     }
 
     /**

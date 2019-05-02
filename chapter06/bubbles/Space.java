@@ -16,5 +16,12 @@ public class Space extends World
         super(900, 600, 1);
         getBackground().setColor(Color.BLACK);
         getBackground().fill();
+        setup();
+   
     }
+    
+   private setup() 
+   {
+    
+   }
 }

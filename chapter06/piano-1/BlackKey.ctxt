@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=BlackKey
+comment0.text=\n\ Write\ a\ description\ of\ class\ BlackKey\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=keyName\ soundFile\ isKeyBlack
+comment1.target=BlackKey(java.lang.String,\ java.lang.String,\ boolean)
+comment1.text=\n\ Create\ a\ new\ key.\n\ Constructor\ -\ it\ runs\ once\ when\ a\ Key\ object\ is\ created\ \n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ BlackKey\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment3.params=
+comment3.target=void\ play()
+comment3.text=\n\ Play\ the\ note\ of\ this\ key\n
+numComments=4
